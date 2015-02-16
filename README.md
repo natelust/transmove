@@ -40,10 +40,10 @@ optional arguments described below:
 
 -c, --check:                Only run the check of the souce and destination
 
--f, --format <string>:      Format of the transcoded videos, defaults to .mp4, specify
+-f, --format [string]:      Format of the transcoded videos, defaults to .mp4, specify
                             alternatives in .abc format
 
--a, --alternative <string>: Specify alternative file formats to accept in file comparison.
+-a, --alternative [string]: Specify alternative file formats to accept in file comparison.
                             i.e. if the source is myfile.avi, accept myfile.mp4 in the
                             destination, else the file check will indicate myfile.avi is
                             missing. Multiple file types may be specified by separating
